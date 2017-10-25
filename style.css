@@ -70,6 +70,8 @@ a:hover{
 .list-inline {
   padding-left: 0;
 }
+
+
 .list-inline li {
   display: inline-block;
   padding: 20px;
@@ -107,4 +109,16 @@ a:hover{
 }
 #projects td{
   padding: 10px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: black;
+}
+#page-content {
+  margin-left: 100px;
 }
